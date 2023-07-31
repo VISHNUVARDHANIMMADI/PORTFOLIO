@@ -1,0 +1,348 @@
+.top-image {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.top-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #111;
+  color: #eee;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav {
+  background-color: #333;
+  color: #eee;
+  padding: 10px 0;
+}
+
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+}
+
+nav .logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+nav h1 {
+  margin: 0;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #eee;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Hero section styles */
+.hero {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hero img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* About section styles */
+#about {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 40px 0;
+}
+
+#about h2 {
+  font-size: 28px;
+  color: #eee;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 16px;
+  color: #ccc;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#about .highlight {
+  color: #ff6b6b;
+  font-weight: bold;
+}
+
+/* Internships section styles */
+#internships {
+  text-align: center;
+  padding: 40px 0;
+}
+
+#internships h2 {
+  font-size: 28px;
+  color: #eee;
+  margin-bottom: 20px;
+}
+
+.internship {
+  text-align: left;
+  border: 1px solid #333;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.internship h3 {
+  font-size: 20px;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.internship .duration, .internship .role {
+  font-size: 16px;
+  color: #aaa;
+  margin-bottom: 5px;
+}
+
+.internship .description {
+  font-size: 16px;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+/* ... (Previous styles) ... */
+
+/* Projects section styles */
+#projects {
+  text-align: center;
+  padding: 40px 0;
+}
+
+#projects h2 {
+  font-size: 28px;
+  color: #eee;
+  margin-bottom: 20px;
+}
+
+.project-card {
+  background-color: #1a1a1a;
+  text-align: left;
+  border: 1px solid #333;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.project-card h3 {
+  font-size: 20px;
+  color: #eee;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 16px;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+/* Team Members section styles */
+#team-members {
+  text-align: center;
+  padding: 40px 0;
+}
+
+#team-members h2 {
+  font-size: 28px;
+  color: #eee;
+  margin-bottom: 20px;
+}
+
+.team-card {
+  background-color: #1a1a1a;
+  text-align: center;
+  border: 1px solid #333;
+  padding: 20px;
+  margin: 10px;
+}
+
+.team-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.team-card h3 {
+  font-size: 20px;
+  color: #eee;
+  margin-bottom: 5px;
+}
+
+.team-card p {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 5px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+/* Skills section styles */
+#skills {
+  text-align: center;
+  padding: 40px 0;
+}
+
+#skills h2 {
+  font-size: 28px;
+  color: #eee;
+  margin-bottom: 20px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.skill {
+  text-align: center;
+  margin: 10px;
+  max-width: 150px;
+}
+
+.skill img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* Scale-up animation for skills on hover */
+.skill:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+/* Contact section styles */
+#contact {
+  text-align: center;
+  padding: 40px 0;
+}
+
+#contact h2 {
+  font-size: 28px;
+  color: #eee;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 5px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-links a {
+  display: inline-block;
+  margin: 10px;
+}
+
+.contact-links img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+/* Slide-in animation for contact links */
+.contact-links a {
+  animation: slideIn 0.5s ease;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Background animation - Gradient Effect */
+body {
+  background: linear-gradient(45deg, #292929, #000);
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Responsive layout styles */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
+
+
+
+
